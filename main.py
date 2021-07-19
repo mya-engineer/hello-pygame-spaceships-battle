@@ -20,6 +20,8 @@ WINNER_FONT = pygame.font.SysFont('comicsans', 100)
 
 BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join('assets', 'Grenade+1.ogg'))
 BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join('assets', 'Gun+Silencer.ogg'))
+pygame.mixer.music.load(os.path.join('assets', 'music.ogg'))
+pygame.mixer.music.set_volume(0.1)
 BULLET_HIT_SOUND.set_volume(0.1)
 BULLET_FIRE_SOUND.set_volume(0.1)
 
@@ -123,6 +125,8 @@ def main():
 
     red_health = 10
     yellow_health = 10
+
+    pygame.mixer.music.play()
 
     clock = pygame.time.Clock()
     run = True
