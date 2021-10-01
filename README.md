@@ -2,7 +2,7 @@
 This project dedicates to "Spaceships Battle" game, which shows using of pygame Python 
 module. This project created with help of @techwithtim (youtube guide).
 
-# Control
+## Control
 - For left player: Move - WASD, shoot - Left Ctrl
 - For right player: Move - Arrows, shoot - Right Ctrl
 
